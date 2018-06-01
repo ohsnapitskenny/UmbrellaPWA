@@ -2,8 +2,7 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <img src="../assets/me.jpg" alt="ProfilePhoto">
-          <h2>Welcome Kenny</h2>
+          Map
         </div>
       </div>
     </div>
@@ -14,7 +13,7 @@
     name: 'app-menu',
     data () {
       return {
-        msg: 'Dashboard'
+        msg: 'Map'
       }
     }
   }

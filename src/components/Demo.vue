@@ -1,12 +1,11 @@
 <template>
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-          <img src="../assets/me.jpg" alt="ProfilePhoto">
-          <h2>Welcome Kenny</h2>
-        </div>
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        Demo
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -14,7 +13,7 @@
     name: 'app-menu',
     data () {
       return {
-        msg: 'Dashboard'
+        msg: 'Demo'
       }
     }
   }
