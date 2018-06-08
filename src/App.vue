@@ -4,7 +4,7 @@
       <section class="hero is-fullheight">
         <div class="hero-head">
           <header>
-            <span>Pluber</span>
+            <span><router-link to="/">Pluber</router-link></span>
           </header>
         </div>
 
@@ -59,5 +59,13 @@
     font-weight: 400;
     box-sizing: border-box;
     padding-top: 16px;
+  }
+
+  span>a:link, span>a:active, span>a:hover, span>a:visited {
+    color: #fff;
+  }
+
+  .hero-foot {
+    margin-bottom: 50px;
   }
 </style>

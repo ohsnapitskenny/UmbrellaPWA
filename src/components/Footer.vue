@@ -2,10 +2,10 @@
   <div class="container">
     <div class="columns is-mobile">
       <div class="column">
-        <a href="/map" class="button">Map</a>
+        <router-link to="/map">Map</router-link>
       </div>
       <div class="column">
-        <a href="/demo" class="button">Demo</a>
+        <router-link to="/demo">Demo</router-link>
       </div>
     </div>
   </div>

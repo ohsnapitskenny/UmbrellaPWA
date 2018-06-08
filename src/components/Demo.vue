@@ -1,12 +1,13 @@
-<template>
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        Demo
+  <template>
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          Demo
+        </div>
       </div>
     </div>
-  </div>
-</template>
+  </template>
+
 
 <script>
   export default {
@@ -48,10 +49,4 @@
     width: 100px;
   }
 
-  img {
-    height: 200px;
-    width: 200px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-  }
 </style>

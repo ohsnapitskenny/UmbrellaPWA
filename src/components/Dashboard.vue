@@ -10,6 +10,7 @@
 </template>
 
 <script>
+
   export default {
     name: 'app-menu',
     data () {
@@ -21,7 +22,7 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style scoped>
   h1, h2 {
     font-weight: normal;
   }
